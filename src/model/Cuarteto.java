@@ -17,7 +17,7 @@ public class Cuarteto extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Instancia un nuevo Cuarteto vacio
+	 * Instancia un nuevo Cuarteto
 	 *
 	 * @param nombre <i>Nombre del Cuarteto</i>
 	 * @param autor <i>Nombre del autor</i>
