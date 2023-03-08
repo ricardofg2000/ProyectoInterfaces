@@ -1,7 +1,5 @@
 package model;
 
-import java.util.Arrays;
-
 public abstract class AgrupacionOficial extends Agrupacion {
 	private final Integer MAX_INT = 10;
 	private Integer puntos;
@@ -55,8 +53,8 @@ public abstract class AgrupacionOficial extends Agrupacion {
 		boolean isOK = false;
 		boolean noEX = true;
 		if (i != null) {
-			for (int j = 0; j < integrantes.length; j++) {
-				if (i == integrantes[j]) {
+			for (Integrante integrante : integrantes) {
+				if (i == integrante) {
 					noEX = false;
 					break;
 				}
@@ -88,9 +86,9 @@ public abstract class AgrupacionOficial extends Agrupacion {
 	
 	public String listadoIntegrante() {
 		String texto = "";
-		for (int i = 0; i < integrantes.length; i++) {
-			if (integrantes[i] != null) {
-				texto += integrantes[i];
+		for (Integrante integrante : integrantes) {
+			if (integrante != null) {
+				texto += integrante;
 			}
 		}
 		return texto;

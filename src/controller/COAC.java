@@ -2,7 +2,15 @@ package controller;
 
 import java.util.Arrays;
 
-import model.*;
+import model.Agrupacion;
+import model.AgrupacionOficial;
+import model.CompAgrupacionAutor;
+import model.CompAgrupacionAutorMyL;
+import model.CompAgrupacionOficialPuntosMayor;
+import model.CompAgrupacionOficialPuntosMenor;
+import model.CompIntegranteNombre;
+import model.CompNombreAgrupacion;
+import model.Integrante;
 
 public class COAC {
 
@@ -50,8 +58,8 @@ public class COAC {
 		boolean isOK = false;
 		boolean noEX = true;
 		if (i != null) {
-			for (int j = 0; j < agrupaciones.length; j++) {
-				if (i == agrupaciones[j]) {
+			for (Agrupacion agrupacione : agrupaciones) {
+				if (i == agrupacione) {
 					noEX = false;
 					break;
 				}
@@ -73,8 +81,8 @@ public class COAC {
 		boolean isOK = false;
 		boolean noEX = true;
 		if (i != null) {
-			for (int j = 0; j < integrantes.length; j++) {
-				if (i == integrantes[j]) {
+			for (Integrante integrante : integrantes) {
+				if (i == integrante) {
 					noEX = false;
 					break;
 				}

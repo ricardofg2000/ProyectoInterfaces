@@ -1,10 +1,14 @@
 package view;
 
-import java.util.Arrays;
-import java.util.Iterator;
-
 import controller.COAC;
-import model.*;
+import model.Agrupacion;
+import model.AgrupacionOficial;
+import model.Chirigota;
+import model.Comparsa;
+import model.Coro;
+import model.Cuarteto;
+import model.Integrante;
+import model.Romancero;
 
 
 public class Principal {
@@ -183,7 +187,7 @@ public class Principal {
 		addDatosComunes(cu);
 		addDatosOficiales(cu);
 		aux1 = Util.leerString("Miembros: ");
-		if (aux1.toString().length() > 0) {
+		if (aux1.length() > 0) {
 			cu.setMiembros(Integer.parseInt(aux1));
 		}
 		coac.inscribir_agrupacion(cu);
@@ -373,7 +377,7 @@ public class Principal {
 		addDatosComunes(cu);
 		addDatosOficiales(cu);
 		aux1 = Util.leerString("Miembros: ");
-		if (aux1.toString().length() > 0) {
+		if (aux1.length() > 0) {
 			cu.setMiembros(Integer.parseInt(aux1));
 		}
 	}
@@ -449,9 +453,9 @@ public class Principal {
 	 */
 	private static void listAll() {
 		Agrupacion[] aux = coac.getAgrupaciones();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null) {
-				System.out.print("\n" + aux[i]);
+		for (Agrupacion anAux : aux) {
+			if (anAux != null) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -473,9 +477,9 @@ public class Principal {
 	 */
 	private static void listAllContest() {
 		Agrupacion[] aux = coac.getAgrupaciones();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null && aux[i] instanceof AgrupacionOficial) {
-				System.out.print("\n" + aux[i]);
+		for (Agrupacion anAux : aux) {
+			if (anAux instanceof AgrupacionOficial) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -557,9 +561,9 @@ public class Principal {
 	 */
 	private static void listAllContestChirigotas() {
 		Agrupacion[] aux = coac.getAgrupaciones();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null && aux[i] instanceof Chirigota) {
-				System.out.print("\n" + aux[i]);
+		for (Agrupacion anAux : aux) {
+			if (anAux instanceof Chirigota) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -569,9 +573,9 @@ public class Principal {
 	 */
 	private static void listAllContestCoros() {
 		Agrupacion[] aux = coac.getAgrupaciones();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null && aux[i] instanceof Coro) {
-				System.out.print("\n" + aux[i]);
+		for (Agrupacion anAux : aux) {
+			if (anAux instanceof Coro) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -581,9 +585,9 @@ public class Principal {
 	 */
 	private static void listAllContestComparsas() {
 		Agrupacion[] aux = coac.getAgrupaciones();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null && aux[i] instanceof Comparsa) {
-				System.out.print("\n" + aux[i]);
+		for (Agrupacion anAux : aux) {
+			if (anAux instanceof Comparsa) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -593,9 +597,9 @@ public class Principal {
 	 */
 	private static void listAllContestCuartetos() {
 		Agrupacion[] aux = coac.getAgrupaciones();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null && aux[i] instanceof Cuarteto) {
-				System.out.print("\n" + aux[i]);
+		for (Agrupacion anAux : aux) {
+			if (anAux instanceof Cuarteto) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -652,9 +656,9 @@ public class Principal {
 	 * @param aux <i>Array de AgrupacionesOficiales</i>
 	 */
 	private static void listAllContest(AgrupacionOficial[] aux) {
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null && aux[i] instanceof AgrupacionOficial) {
-				System.out.print("\n" + aux[i]);
+		for (AgrupacionOficial anAux : aux) {
+			if (anAux instanceof AgrupacionOficial) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -691,9 +695,9 @@ public class Principal {
 	 */
 	private static void listChirigotas() {
 		Agrupacion[] aux = coac.getAgrupaciones();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null && aux[i] instanceof Chirigota) {
-				System.out.print("\n" + aux[i]);
+		for (Agrupacion anAux : aux) {
+			if (anAux instanceof Chirigota) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -703,9 +707,9 @@ public class Principal {
 	 */
 	private static void listCoros() {
 		Agrupacion[] aux = coac.getAgrupaciones();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null && aux[i] instanceof Coro) {
-				System.out.print("\n" + aux[i]);
+		for (Agrupacion anAux : aux) {
+			if (anAux instanceof Coro) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -715,9 +719,9 @@ public class Principal {
 	 */
 	private static void listComparsas() {
 		Agrupacion[] aux = coac.getAgrupaciones();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null && aux[i] instanceof Comparsa) {
-				System.out.print("\n" + aux[i]);
+		for (Agrupacion anAux : aux) {
+			if (anAux instanceof Comparsa) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -727,9 +731,9 @@ public class Principal {
 	 */
 	private static void listCuartetos() {
 		Agrupacion[] aux = coac.getAgrupaciones();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null && aux[i] instanceof Cuarteto) {
-				System.out.print("\n" + aux[i]);
+		for (Agrupacion anAux : aux) {
+			if (anAux instanceof Cuarteto) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -739,9 +743,9 @@ public class Principal {
 	 */
 	private static void listRomanceros() {
 		Agrupacion[] aux = coac.getAgrupaciones();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null && aux[i] instanceof Romancero) {
-				System.out.print("\n" + aux[i]);
+		for (Agrupacion anAux : aux) {
+			if (anAux instanceof Romancero) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -817,7 +821,7 @@ public class Principal {
 			agAux = (AgrupacionOficial) coac.getAgrupaciones(Integer.parseInt(aux1));
 			agAux.insertarIntegrante(in);
 			aux1 = Util.leerString("\n¿Pertenece a alguna otra agrupación? [Y/N]: ");
-			while (aux1.equalsIgnoreCase("y")) {
+			while ("y".equalsIgnoreCase(aux1)) {
 				listAllContestNumber();
 				aux1 = Util.leerString("\n¿A que Agrupación Oficial pertenece? [Respuesta en blanco = Ninguna]: ");
 				if (aux1.length() > 0) {
@@ -882,9 +886,9 @@ public class Principal {
 	 */
 	private static void listIntegrantes() {
 		Integrante[] aux = coac.getIntegrantes();
-		for (int i = 0; i < aux.length; i++) {
-			if (aux[i] != null) {
-				System.out.print("\n" + aux[i]);
+		for (Integrante anAux : aux) {
+			if (anAux != null) {
+				System.out.print("\n" + anAux);
 			}
 		}
 	}
@@ -915,11 +919,11 @@ public class Principal {
 			aux = coac.getIntegrantes(opc - 1);
 			arrayAgConcurso = coac.getAgrupacionesConcurso();
 			System.out.println("\nEl integrante " + opc + " forma parte de las siguientes agrupaciones oficiales: \n");
-			for (int i = 0; i < arrayAgConcurso.length; i++) {
-				if (arrayAgConcurso[i] != null) {
-					for (int j = 0; j < arrayAgConcurso[i].getIntegrantes().length; j++) {
-						if (arrayAgConcurso[i].getIntegrantes(j) == aux) {
-							System.out.print("\n" + arrayAgConcurso[i]);
+			for (AgrupacionOficial anArrayAgConcurso : arrayAgConcurso) {
+				if (anArrayAgConcurso != null) {
+					for (int j = 0; j < anArrayAgConcurso.getIntegrantes().length; j++) {
+						if (anArrayAgConcurso.getIntegrantes(j) == aux) {
+							System.out.print("\n" + anArrayAgConcurso);
 						}
 					}
 				} else {
