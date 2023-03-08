@@ -9,11 +9,11 @@ import java.util.Comparator;
 public class CompNombreAgrupacion implements Comparator<Agrupacion> {
 
 	/**
-	 * Compara dos objetos del tipo Agrupación segun el nombre
+	 * Compara dos objetos del tipo Agrupación según el nombre
 	 *
 	 * @param o1 <i>Primer Objeto Agrupación</i>
 	 * @param o2 <i>Segundo Objeto Agrupación</i>
-	 * @return Resultado de la comparación
+	 * @return int Resultado de la comparación
 	 */
 	@Override
 	public int compare(Agrupacion o1, Agrupacion o2) {
