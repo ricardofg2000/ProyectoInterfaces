@@ -14,8 +14,11 @@ import model.Romancero;
 public class Principal {
 	
 	static COAC coac = new COAC(20, 10);
+	
 	/**
-	 * Método principal del programa
+	 * Método principal del programa.
+	 *
+	 * @param args 
 	 */
 	public static void main(String[] args) {
 
@@ -461,7 +464,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas las Agrupaciones registradas numerandolas
+	 * Muestra por pantalla todas las Agrupaciones registradas enumerandolas
 	 */
 	private static void listAllNumber() {
 		Agrupacion[] aux = coac.getAgrupaciones();
