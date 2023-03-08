@@ -5,34 +5,34 @@ package model;
  */
 public class Integrante {
 	
-	/** Atributo numero del participante */
+	/** Atributo numero del participante del integrante */
 	private Integer numeroParticipante;
 	
-	/** Atributo nombre del  */
+	/** Atributo nombre del integrante */
 	private String nombre;
 	
-	/** The edad. */
+	/** Atributo edad del integrante */
 	private Integer edad;
 	
-	/** The localidad. */
+	/** Atributo localidad del integrante */
 	private String localidad;
 	
-	/** The cont. */
+	/** Atributo auxiliar contador de Objetos de la clase Integrante creados */
 	private static Integer cont = 1;
 
 	/**
-	 * Instantiates a new integrante.
+	 * Instancia un nuevo Integrante vacio
 	 */
 	public Integrante() {
 		setNumeroParticipante(cont++);
 	}
 
 	/**
-	 * Instantiates a new integrante.
+	 * Instancia un nuevo Integrante con todos sus atributos
 	 *
-	 * @param nombre the nombre
-	 * @param edad the edad
-	 * @param localidad the localidad
+	 * @param nombre <i>Nombre del Integrante</i>
+	 * @param edad <i>Edad del Integrante</i>
+	 * @param localidad <i>Localidad del Integrante</i>
 	 */
 	public Integrante(String nombre, Integer edad, String localidad) {
 		setNumeroParticipante(cont++);
@@ -42,54 +42,54 @@ public class Integrante {
 	}
 
 	/**
-	 * Gets the numero participante.
+	 * Obtiene el valor del número del participante
 	 *
-	 * @return the numero participante
+	 * @return Número del participante
 	 */
 	public Integer getNumeroParticipante() {
 		return numeroParticipante;
 	}
 
 	/**
-	 * Sets the numero participante.
+	 * Cambia el valor del número del participante
 	 *
-	 * @param numeroParticipante the new numero participante
+	 * @param numeroParticipante <i>Nuevo número del participante</i>
 	 */
 	private void setNumeroParticipante(Integer numeroParticipante) {
 		this.numeroParticipante = numeroParticipante;
 	}
 
 	/**
-	 * Gets the nombre.
+	 * Obtiene el valor del nombre del integrante
 	 *
-	 * @return the nombre
+	 * @return nombre del integrante
 	 */
 	public String getNombre() {
 		return nombre;
 	}
 
 	/**
-	 * Sets the nombre.
+	 * Cambia el valor del nombre del integrante
 	 *
-	 * @param nombre the new nombre
+	 * @param nombre <i>Nuevo nombre del integrante</i>
 	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
 	/**
-	 * Gets the edad.
+	 * Obtiene el valor de la edad del integrante
 	 *
-	 * @return the edad
+	 * @return edad del integrante
 	 */
 	public Integer getEdad() {
 		return edad;
 	}
 
 	/**
-	 * Sets the edad.
+	 * Cambia el valor de la edad del integrante
 	 *
-	 * @param edad the new edad
+	 * @param edad <i>Nueva edad del integrante</i>
 	 */
 	public void setEdad(Integer edad) {
 		if (edad >= 18) {
@@ -99,9 +99,9 @@ public class Integrante {
 	}
 
 	/**
-	 * Gets the localidad.
+	 * Obtiene el valor de la localidad del integrante
 	 *
-	 * @return the localidad
+	 * @return localidad del integrante
 	 */
 	public String getLocalidad() {
 		return localidad;
@@ -110,14 +110,14 @@ public class Integrante {
 	/**
 	 * Sets the localidad.
 	 *
-	 * @param localidad the new localidad
+	 * @param localidad <i>Nueva localidad del integrante</i>
 	 */
 	public void setLocalidad(String localidad) {
 		this.localidad = localidad;
 	}
 
 	/**
-	 * To string.
+	 * Constructor del método toString con los atributos de un Integrante
 	 *
 	 * @return the string
 	 */

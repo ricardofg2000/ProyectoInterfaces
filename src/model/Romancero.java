@@ -82,7 +82,7 @@ public class Romancero extends Agrupacion implements Callejera {
 	}
 
 	/**
-	 * Muestra por pantalla los atributos de un Romancero
+	 * Constructor del método toString con los atributos de un Romancero
 	 *
 	 * @return Cadena de texto con los atributos del Romancero
 	 */
