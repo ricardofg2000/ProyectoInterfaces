@@ -3,8 +3,9 @@ package model;
 import java.util.Comparator;
 
 /**
- * Clase CompNombreAgrupacion se utiliza para comparar Objetos del tipo
- * AgrupaciónOficial según el número de puntos de la AgrupaciónOficial
+ * Clase CompAgrupacionOficialPuntosMenor se utiliza para ordenar Objetos del tipo
+ * AgrupaciónOficial según el número de puntos de la AgrupaciónOficial 
+ * de menor a mayor
  */
 public class CompAgrupacionOficialPuntosMenor implements Comparator<AgrupacionOficial>{
 
