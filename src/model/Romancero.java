@@ -3,7 +3,7 @@ package model;
 
 /**
  * Clase Romancero, se utiliza para crear y leer las Agrupaciones de este tipo, 
- * implementa la interfaz Callejera
+ * implementa la interfaz Callejera, hereda de la clase Agrupación
  */
 public class Romancero extends Agrupacion implements Callejera {
 	

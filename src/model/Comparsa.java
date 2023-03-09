@@ -2,6 +2,7 @@ package model;
 
 /**
  * Clase Comparsa, se utiliza para crear y leer las Agrupaciones de este tipo
+ * , hereda de la clase AgrupaciónOficial
  */
 public class Comparsa extends AgrupacionOficial {
 	
@@ -44,7 +45,7 @@ public class Comparsa extends AgrupacionOficial {
 	/**
 	 * Cambia el valor del nombre de la empresa de atrezzo
 	 *
-	 * @param miembros <i>Nuevo nombre de la empresa de atrezzo</i>
+	 * @param empresaA <i>Nuevo nombre de la empresa de atrezzo</i>
 	 */
 	public void setEmpresaA(String empresaA) {
 		this.empresaA = empresaA;

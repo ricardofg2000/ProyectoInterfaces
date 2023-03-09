@@ -2,7 +2,7 @@ package model;
 
 /**
  * Clase Chirigota, se utiliza para crear y leer las Agrupaciones de este tipo, 
- * implementa la interfaz Callejera
+ * implementa la interfaz Callejera, hereda de la clase AgrupaciónOficial
  */
 public class Chirigota extends AgrupacionOficial implements Callejera {
 	
@@ -45,7 +45,7 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 	/**
 	 * Cambia el valor del número de cuplés
 	 *
-	 * @param miembros <i>Nuevo número de cuplés</i>
+	 * @param cuples <i>Nuevo número de cuplés</i>
 	 */
 	public void setCuples(Integer cuples) {
 		this.cuples = cuples;

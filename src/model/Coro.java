@@ -3,7 +3,7 @@ package model;
 // TODO: Auto-generated Javadoc
 /**
  * Clase Coro, se utiliza para crear y leer las Agrupaciones de este tipo, 
- * implementa la interfaz Callejera
+ * implementa la interfaz Callejera, hereda de la clase AgrupaciónOficial
  */
 public class Coro extends AgrupacionOficial {
 	
