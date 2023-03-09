@@ -12,8 +12,8 @@ public class CompAgrupacionOficialPuntosMenor implements Comparator<AgrupacionOf
 	/**
 	 * Compara dos objetos del tipo AgrupaciónOfical según el número puntos
 	 *
-	 * @param o1 <i>Primer Objeto Agrupación</i>
-	 * @param o2 <i>Segundo Objeto Agrupación</i>
+	 * @param o1 <i>Primer Objeto AgrupaciónOficial</i>
+	 * @param o2 <i>Segundo Objeto AgrupaciónOficial</i>
 	 * @return int Resultado de la comparación
 	 */
 	@Override
