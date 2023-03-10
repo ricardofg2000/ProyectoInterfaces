@@ -11,14 +11,21 @@ import model.Integrante;
 import model.Romancero;
 
 
+/**
+ * Clase Principal del programa, lleva a cabo el frontend del programa
+ * 
+ * @version 3-2023
+ * @author Ricardo Fernández Guzmán
+ */
 public class Principal {
 	
+	/** The coac. */
 	static COAC coac = new COAC(20, 10);
 	
 	/**
 	 * Método principal del programa.
 	 *
-	 * @param args 
+	 * @param args the arguments
 	 */
 	public static void main(String[] args) {
 
@@ -27,7 +34,7 @@ public class Principal {
 	}
 
 	/**
-	 * Crea una serie de objetos y los incorpora al objeto de la clase COAC
+	 * Crea una serie de objetos y los incorpora al objeto de la clase COAC.
 	 */
 	private static void inicializacion() {
 		Chirigota ag1 = new Chirigota("los perros", "carlos", "ricardo", "pablo", "policias", 30, 4);
@@ -47,7 +54,7 @@ public class Principal {
 	}
 
 	/**
-	 * Gestiona las opciones del menu principal
+	 * Gestiona las opciones del menu principal.
 	 */
 	private static void gestionPrograma() {
 		int opc;
@@ -75,7 +82,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra el menu principal
+	 * Muestra el menu principal.
 	 */
 	private static void mostrarMenuPrincipal() {
 		Util.escribir("\n");
@@ -101,7 +108,7 @@ public class Principal {
 	}
 
 	/**
-	 * Gestiona las opciones sobre la agregación de agrupaciones
+	 * Gestiona las opciones sobre la agregación de agrupaciones.
 	 */
 	private static void addAgrupacion() {
 		int opc;
@@ -132,7 +139,7 @@ public class Principal {
 	}
 
 	/**
-	 * Crea y agrega una agrupación del tipo Chirigota a la lista del controlador
+	 * Crea y agrega una agrupación del tipo Chirigota a la lista del controlador.
 	 */
 	private static void addChirigota() {
 		Chirigota ch = new Chirigota();
@@ -148,7 +155,7 @@ public class Principal {
 	}
 
 	/**
-	 * Crea y agrega una agrupación del tipo Coro a la lista del controlador
+	 * Crea y agrega una agrupación del tipo Coro a la lista del controlador.
 	 */
 	private static void addCoro() {
 		Coro co = new Coro();
@@ -167,7 +174,7 @@ public class Principal {
 	}
 
 	/**
-	 * Crea y agrega una agrupación del tipo Comparsa a la lista del controlador
+	 * Crea y agrega una agrupación del tipo Comparsa a la lista del controlador.
 	 */
 	private static void addComparsa() {
 		Comparsa com = new Comparsa();
@@ -182,7 +189,7 @@ public class Principal {
 	}
 
 	/**
-	 * Crea y agrega una agrupación del tipo Cuarteto a la lista del controlador
+	 * Crea y agrega una agrupación del tipo Cuarteto a la lista del controlador.
 	 */
 	private static void addCuarteto() {
 		Cuarteto cu = new Cuarteto();
@@ -197,7 +204,7 @@ public class Principal {
 	}
 
 	/**
-	 * Crea y agrega una agrupación del tipo Romancero a la lista del controlador
+	 * Crea y agrega una agrupación del tipo Romancero a la lista del controlador.
 	 */
 	private static void addRomancero() {
 		Romancero ro = new Romancero();
@@ -211,7 +218,7 @@ public class Principal {
 	}
 
 	/**
-	 * Método que agregar los datos comunes de una Agrupación
+	 * Método que agregar los datos comunes de una Agrupación.
 	 *
 	 * @param agrupacion <i>Una Agrupación a la que se le añaden o modifican sus valores</i>
 	 */
@@ -241,7 +248,7 @@ public class Principal {
 	}
 
 	/**
-	 * Método que agregar los datos comunes de una AgrupaciónOficial
+	 * Método que agregar los datos comunes de una AgrupaciónOficial.
 	 *
 	 * @param agrupacion <i>Una Agrupación Oficial a la que se le añaden o modifican sus valores</i>
 	 */
@@ -254,7 +261,7 @@ public class Principal {
 	}
 
 	/**
-	 * Gestiona la elección y borrado de un objeto Agrupación que le dice el usuario
+	 * Gestiona la elección y borrado de un objeto Agrupación que le dice el usuario.
 	 */
 	private static void opcDeleteAgrupacion() {
 		int opc;
@@ -266,7 +273,7 @@ public class Principal {
 	}
 
 	/**
-	 * Método que borra un objeto Agrupación
+	 * Método que borra un objeto Agrupación.
 	 *
 	 * @param opc <i>Selección de la lista de agrupaciones</i>
 	 */
@@ -288,7 +295,7 @@ public class Principal {
 
 	/**
 	 * Muestra la lista de agrupaciones y espera a que el usuario seleccione una 
-	 * de la lista y utiliza el método oportuno para la modificación de sus valores segun el tipo de Agrupación
+	 * de la lista y utiliza el método oportuno para la modificación de sus valores segun el tipo de Agrupación.
 	 */
 	private static void modAgrupacion() {
 		int opc;
@@ -322,7 +329,7 @@ public class Principal {
 	}
 
 	/**
-	 * Modifica un objeto del tipo Chirigota
+	 * Modifica un objeto del tipo Chirigota.
 	 *
 	 * @param ch <i>Chirigota</i>
 	 */
@@ -337,7 +344,7 @@ public class Principal {
 	}
 
 	/**
-	 * Modifica un objeto del tipo Coro
+	 * Modifica un objeto del tipo Coro.
 	 *
 	 * @param co <i>Coro</i>
 	 */
@@ -356,7 +363,7 @@ public class Principal {
 	}
 
 	/**
-	 * Modifica un objeto del tipo Comparsa
+	 * Modifica un objeto del tipo Comparsa.
 	 *
 	 * @param com <i>Comparsa</i>
 	 */
@@ -371,7 +378,7 @@ public class Principal {
 	}
 
 	/**
-	 * Modifica un objeto del tipo Cuarteto
+	 * Modifica un objeto del tipo Cuarteto.
 	 *
 	 * @param cu <i>Cuarteto</i>
 	 */
@@ -386,7 +393,7 @@ public class Principal {
 	}
 
 	/**
-	 * Modifica un objeto del tipo Cuarteto
+	 * Modifica un objeto del tipo Cuarteto.
 	 *
 	 * @param ro <i>Romancero</i>
 	 */
@@ -400,7 +407,7 @@ public class Principal {
 	}
 
 	/**
-	 * Gestiona las opciones del menu concurso
+	 * Gestiona las opciones del menu concurso.
 	 */
 	private static void opcConcurso() {
 		int opc;
@@ -426,7 +433,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra el menu del concurso
+	 * Muestra el menu del concurso.
 	 */
 	private static void mostrarMenuConcurso() {
 		Util.escribir("\n");
@@ -452,7 +459,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas las Agrupaciones registradas
+	 * Muestra por pantalla todas las Agrupaciones registradas.
 	 */
 	private static void listAll() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -464,7 +471,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas las Agrupaciones registradas enumerandolas
+	 * Muestra por pantalla todas las Agrupaciones registradas enumerandolas.
 	 */
 	private static void listAllNumber() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -476,7 +483,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas las AgrupacionesOficiales registradas
+	 * Muestra por pantalla todas las AgrupacionesOficiales registradas.
 	 */
 	private static void listAllContest() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -488,7 +495,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas las AgrupacionesOficiales registradas numerandolas
+	 * Muestra por pantalla todas las AgrupacionesOficiales registradas numerandolas.
 	 */
 	private static void listAllContestNumber() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -500,7 +507,7 @@ public class Principal {
 	}
 
 	/**
-	 * Permite al Usuario elegir una AgrupacionOficial, que ejecutará el método "caminitoDelFalla"
+	 * Permite al Usuario elegir una AgrupacionOficial, que ejecutará el método "caminitoDelFalla".
 	 */
 	private static void falla() {
 		listAllContestNumber();
@@ -515,7 +522,7 @@ public class Principal {
 	}
 
 	/**
-	 * Permite al Usuario elegir una AgrupacionOficial, que ejecutará el método "hacerTipo"
+	 * Permite al Usuario elegir una AgrupacionOficial, que ejecutará el método "hacerTipo".
 	 */
 	private static void contestType() {
 		listAllContestNumber();
@@ -529,7 +536,7 @@ public class Principal {
 	}
 
 	/**
-	 * Permite al Usuario elegir una AgrupacionOficial, que ejecutará el método "cantarPresentacion"
+	 * Permite al Usuario elegir una AgrupacionOficial, que ejecutará el método "cantarPresentacion".
 	 */
 	private static void singPresentation() {
 		listAllContestNumber();
@@ -543,7 +550,7 @@ public class Principal {
 	}
 
 	/**
-	 * Modifica los puntos de una AgrupaciónOficial
+	 * Modifica los puntos de una AgrupaciónOficial.
 	 */
 	private static void modPoints() {
 		listAllContestNumber();
@@ -560,7 +567,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas las Chirigotas registradas
+	 * Muestra por pantalla todas las Chirigotas registradas.
 	 */
 	private static void listAllContestChirigotas() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -572,7 +579,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas las Coros registradas
+	 * Muestra por pantalla todas las Coros registradas.
 	 */
 	private static void listAllContestCoros() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -584,7 +591,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas las Comparsas registradas
+	 * Muestra por pantalla todas las Comparsas registradas.
 	 */
 	private static void listAllContestComparsas() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -596,7 +603,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas las Cuarteto registradas
+	 * Muestra por pantalla todas las Cuarteto registradas.
 	 */
 	private static void listAllContestCuartetos() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -608,7 +615,7 @@ public class Principal {
 	}
 
 	/**
-	 * Ordena según la opción que introduce el usuario las AgrupacionesOficiales por la cantidad de puntos
+	 * Ordena según la opción que introduce el usuario las AgrupacionesOficiales por la cantidad de puntos.
 	 */
 	private static void sortContestPoints() {
 		int opc;
@@ -634,7 +641,7 @@ public class Principal {
 	}
 
 	/**
-	 * Ordena y muestra por pantalla las AgrupacionesOficiales de menor a mayor
+	 * Ordena y muestra por pantalla las AgrupacionesOficiales de menor a mayor.
 	 */
 	private static void sortContestPointsLower() {
 		AgrupacionOficial[] aux = coac.getAgrupacionesConcurso();
@@ -644,7 +651,7 @@ public class Principal {
 	}
 
 	/**
-	 * Ordena y muestra por pantalla las AgrupacionesOficiales de mayor a menor
+	 * Ordena y muestra por pantalla las AgrupacionesOficiales de mayor a menor.
 	 */
 	private static void sortContestPointsHigher() {
 		AgrupacionOficial[] aux = coac.getAgrupacionesConcurso();
@@ -654,7 +661,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla uno a uno todas los elementos de la AgrupaciónOficial
+	 * Muestra por pantalla uno a uno todas los elementos de la AgrupaciónOficial.
 	 *
 	 * @param aux <i>Array de AgrupacionesOficiales</i>
 	 */
@@ -667,7 +674,7 @@ public class Principal {
 	}
 
 	/**
-	 * Ordena y muestra por pantalla las AgrupacionesOficiales según el nombre de la agrupación
+	 * Ordena y muestra por pantalla las AgrupacionesOficiales según el nombre de la agrupación.
 	 */
 	private static void sortContestName() {
 		coac.ordenar_por_nombre();
@@ -676,7 +683,7 @@ public class Principal {
 	}
 
 	/**
-	 * Ordena y muestra por pantalla las AgrupacionesOficiales según el nombre del autor
+	 * Ordena y muestra por pantalla las AgrupacionesOficiales según el nombre del autor.
 	 */
 	private static void sortContestAuthor() {
 		coac.ordenar_por_autor();
@@ -685,7 +692,7 @@ public class Principal {
 	}
 
 	/**
-	 * Ordena y muestra por pantalla las AgrupacionesOficiales según el nombre del autor de la musica y de la letra
+	 * Ordena y muestra por pantalla las AgrupacionesOficiales según el nombre del autor de la musica y de la letra.
 	 */
 	private static void sortContestAuthorMyL() {
 		coac.ordenar_por_autor_musica_letra();
@@ -694,7 +701,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas las Chirigotas
+	 * Muestra por pantalla todas las Chirigotas.
 	 */
 	private static void listChirigotas() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -706,7 +713,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas los Coros
+	 * Muestra por pantalla todas los Coros.
 	 */
 	private static void listCoros() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -718,7 +725,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas las Comparsas
+	 * Muestra por pantalla todas las Comparsas.
 	 */
 	private static void listComparsas() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -730,7 +737,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas los Cuartetos
+	 * Muestra por pantalla todas los Cuartetos.
 	 */
 	private static void listCuartetos() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -742,7 +749,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla todas los Romanceros
+	 * Muestra por pantalla todas los Romanceros.
 	 */
 	private static void listRomanceros() {
 		Agrupacion[] aux = coac.getAgrupaciones();
@@ -754,7 +761,7 @@ public class Principal {
 	}
 
 	/**
-	 * Gestiona las opciones del menu de los integrantes
+	 * Gestiona las opciones del menu de los integrantes.
 	 */
 	private static void opcIntegrantes() {
 		int opc;
@@ -790,7 +797,7 @@ public class Principal {
 	}
 
 	/**
-	 * Añade un objeto del tipo Intregrante a la lista del controlador
+	 * Añade un objeto del tipo Intregrante a la lista del controlador.
 	 */
 	private static void addIntegrante() {
 		Integrante in = new Integrante();
@@ -799,7 +806,7 @@ public class Principal {
 	}
 
 	/**
-	 * Añade o modifica datos del objeto del tipo integrante
+	 * Añade o modifica datos del objeto del tipo integrante.
 	 *
 	 * @param in <i>Integrante</i>
 	 */
@@ -836,7 +843,7 @@ public class Principal {
 	}
 
 	/**
-	 * Gestiona la elección y borrado de un objeto Integrante que elije el usuario
+	 * Gestiona la elección y borrado de un objeto Integrante que elije el usuario.
 	 */
 	private static void opcDeleteIntegrante() {
 		int opc;
@@ -848,7 +855,7 @@ public class Principal {
 	}
 
 	/**
-	 * Borra un integrante de la lista de integrantes
+	 * Borra un integrante de la lista de integrantes.
 	 *
 	 * @param opc <i>Selección de la lista de integrantes</i>
 	 */
@@ -869,7 +876,7 @@ public class Principal {
 	}
 
 	/**
-	 * Modifica el valor del integrante que sea seleccionado por el usuario
+	 * Modifica el valor del integrante que sea seleccionado por el usuario.
 	 */
 	private static void modIntegrante() {
 		listIntegrantesNumber();
@@ -885,7 +892,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla la información de todos los integrantes
+	 * Muestra por pantalla la información de todos los integrantes.
 	 */
 	private static void listIntegrantes() {
 		Integrante[] aux = coac.getIntegrantes();
@@ -897,7 +904,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla de manera numerada la información de todos los integrantes
+	 * Muestra por pantalla de manera numerada la información de todos los integrantes.
 	 */
 	private static void listIntegrantesNumber() {
 		Integrante[] aux = coac.getIntegrantes();
@@ -909,7 +916,7 @@ public class Principal {
 	}
 
 	/**
-	 * Muestra por pantalla la lista de las agrupaciones a las que pertenece un Integrante
+	 * Muestra por pantalla la lista de las agrupaciones a las que pertenece un Integrante.
 	 */
 	private static void listAgrupacionIntegrante() {
 		listIntegrantesNumber();
@@ -938,7 +945,7 @@ public class Principal {
 	}
 
 	/**
-	 * Ordena y muestra por pantalla los Integrantes según el nombre del autor
+	 * Ordena y muestra por pantalla los Integrantes según el nombre del autor.
 	 */
 	private static void sortIntName() {
 		coac.sortIntegranteName();
@@ -947,7 +954,7 @@ public class Principal {
 	}
 
 	/**
-	 * Ordena y muestra por pantalla las AgrupacionesOficiales según el nombre del autor de la musica y de la letra
+	 * Ordena y muestra por pantalla las AgrupacionesOficiales según el nombre del autor de la musica y de la letra.
 	 */
 	private static void sortAgrupML() {
 		coac.ordenar_por_autor_musica_letra();
@@ -956,7 +963,7 @@ public class Principal {
 	}
 
 	/**
-	 * Ordena y muestra por pantalla las AgrupacionesOficiales según el nombre del autor
+	 * Ordena y muestra por pantalla las AgrupacionesOficiales según el nombre del autor.
 	 */
 	private static void sortAgrupAuthor() {
 		coac.ordenar_por_autor();
@@ -965,7 +972,7 @@ public class Principal {
 	}
 
 	/**
-	 * Ordena y muestra por pantalla las Agrupaciones según el nombre de la agrupación
+	 * Ordena y muestra por pantalla las Agrupaciones según el nombre de la agrupación.
 	 */
 	private static void sortAgrupName() {
 		coac.ordenar_por_nombre();
@@ -974,7 +981,7 @@ public class Principal {
 	}
 
 	/**
-	 * Finaliza el programa
+	 * Finaliza el programa.
 	 */
 	private static void finDelPrograma() {
 		Util.escribir("\nFin del programa.");

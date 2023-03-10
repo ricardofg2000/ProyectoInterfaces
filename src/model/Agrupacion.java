@@ -3,6 +3,9 @@ package model;
 /**
  * Clase Agrupación, se utiliza para leer y trabajar con los objetos del tipo
  * Agrupacion hereda implementa Comparable
+ * 
+ * @version 3-2023
+ * @author Ricardo Fernández Guzmán
  */
 public abstract class Agrupacion implements Comparable<Agrupacion> {
 

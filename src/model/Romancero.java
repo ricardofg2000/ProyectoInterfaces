@@ -4,6 +4,9 @@ package model;
 /**
  * Clase Romancero, se utiliza para crear y leer las Agrupaciones de este tipo, 
  * implementa la interfaz Callejera, hereda de la clase Agrupación
+ * 
+ * @version 3-2023
+ * @author Ricardo Fernández Guzmán
  */
 public class Romancero extends Agrupacion implements Callejera {
 	

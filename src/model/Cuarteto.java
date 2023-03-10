@@ -3,6 +3,9 @@ package model;
 /**
  * Clase Cuarteto, se utiliza para crear y leer las Agrupaciones de este tipo, 
  * implementa la interfaz Callejera, hereda de la clase AgrupaciónOficial
+ * 
+ * @version 3-2023
+ * @author Ricardo Fernández Guzmán
  */
 public class Cuarteto extends AgrupacionOficial implements Callejera {
 	

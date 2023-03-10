@@ -5,6 +5,9 @@ import java.util.Comparator;
 /**
  * Clase CompAgrupacionAutor se utiliza para ordenar Objetos del tipo
  * Agrupación según el nombre del autor
+ * 
+ * @version 3-2023
+ * @author Ricardo Fernández Guzmán
  */
 public class CompAgrupacionAutor implements Comparator<Agrupacion> {
 

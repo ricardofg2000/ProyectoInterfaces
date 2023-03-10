@@ -6,6 +6,9 @@ import java.util.Comparator;
  * Clase CompAgrupacionAutorMyL se utiliza para ordenar Objetos del tipo
  * Agrupación según el nombre del autor de la musica y del nombre del 
  * autor de la letra
+ * 
+ * @version 3-2023
+ * @author Ricardo Fernández Guzmán
  */
 public class CompAgrupacionAutorMyL implements Comparator<Agrupacion> {
 

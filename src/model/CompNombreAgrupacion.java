@@ -5,6 +5,9 @@ import java.util.Comparator;
 /**
  * Clase CompNombreAgrupacion se utiliza para ordenar Objetos del tipo
  * Agrupación según el nombre de la agrupación
+ * 
+ * @version 3-2023
+ * @author Ricardo Fernández Guzmán
  */
 public class CompNombreAgrupacion implements Comparator<Agrupacion> {
 

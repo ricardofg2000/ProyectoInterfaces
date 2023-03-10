@@ -6,6 +6,9 @@ import java.util.Comparator;
  * Clase CompAgrupacionOficialPuntosMayor se utiliza para ordenar Objetos del tipo
  * AgrupaciónOficial según el número de puntos de la AgrupaciónOficial 
  * de menor a mayor
+ * 
+ * @version 3-2023
+ * @author Ricardo Fernández Guzmán
  */
 public class CompAgrupacionOficialPuntosMayor implements Comparator<AgrupacionOficial>{
 

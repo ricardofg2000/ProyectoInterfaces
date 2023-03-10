@@ -2,6 +2,9 @@ package model;
 
 /**
  * Clase Integrante, se utiliza para crear y leer integrantes de las Agrupaciones
+ * 
+ * @version 3-2023
+ * @author Ricardo Fernández Guzmán
  */
 public class Integrante {
 	

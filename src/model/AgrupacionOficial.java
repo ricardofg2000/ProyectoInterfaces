@@ -3,6 +3,9 @@ package model;
 /**
  * Clase AgrupaciónOficial, se utiliza para leer y trabajar con los objetos del tipo
  * AgrupacionOficial hereda de la clase Agrupación
+ * 
+ * @version 3-2023
+ * @author Ricardo Fernández Guzmán
  */
 public abstract class AgrupacionOficial extends Agrupacion {
 	

@@ -3,6 +3,9 @@ package model;
 /**
  * Clase Comparsa, se utiliza para crear y leer las Agrupaciones de este tipo
  * , hereda de la clase AgrupaciónOficial
+ * 
+ * @version 3-2023
+ * @author Ricardo Fernández Guzmán
  */
 public class Comparsa extends AgrupacionOficial {
 	
