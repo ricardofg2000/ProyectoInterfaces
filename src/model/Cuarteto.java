@@ -2,25 +2,25 @@ package model;
 
 /**
  * Clase Cuarteto, se utiliza para crear y leer las Agrupaciones de este tipo, 
- * implementa la interfaz Callejera, hereda de la clase AgrupaciónOficial
- * 
- * @version 3-2023
+ * implementa la interfaz Callejera, hereda de la clase AgrupaciónOficial.
+ *
  * @author Ricardo Fernández Guzmán
+ * @version 3-2023
  */
 public class Cuarteto extends AgrupacionOficial implements Callejera {
 	
-	/** Atributo número de miembros del Cuarteto */
+	/**  Atributo número de miembros del Cuarteto. */
 	private Integer miembros;
 
 	/**
-	 * Instancia un nuevo Cuarteto vacio
+	 * Instancia un nuevo Cuarteto vacio.
 	 */
 	public Cuarteto() {
 		super();
 	}
 
 	/**
-	 * Instancia un nuevo Cuarteto
+	 * Instancia un nuevo Cuarteto.
 	 *
 	 * @param nombre <i>Nombre del Cuarteto</i>
 	 * @param autor <i>Nombre del autor</i>
@@ -37,7 +37,7 @@ public class Cuarteto extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Obtiene el valor del número de miembros
+	 * Obtiene el valor del número de miembros.
 	 *
 	 * @return Número de miembros
 	 */
@@ -46,7 +46,7 @@ public class Cuarteto extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Cambia el valor del número de miembros
+	 * Cambia el valor del número de miembros.
 	 *
 	 * @param miembros <i>Nuevo número de miembros</i>
 	 */
@@ -56,7 +56,7 @@ public class Cuarteto extends AgrupacionOficial implements Callejera {
 
 	/**
 	 * Genera un String compuesto por el texto para cantarPresentación 
-	 * seguido del nombre del Cuarteto
+	 * seguido del nombre del Cuarteto.
 	 *
 	 * @return String cantarPresentación
 	 */
@@ -66,8 +66,8 @@ public class Cuarteto extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Genera un String compuesto por el nombre del Cuarteto y el tipo de difraz
-	 * 
+	 * Genera un String compuesto por el nombre del Cuarteto y el tipo de difraz.
+	 *
 	 * @return String tipoDisfraz
 	 */
 	@Override
@@ -76,8 +76,8 @@ public class Cuarteto extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Genera un String para indicar que un Cuarteto va camino de la falla
-	 * 
+	 * Genera un String para indicar que un Cuarteto va camino de la falla.
+	 *
 	 * @return String caminitoDelFalla
 	 */
 	@Override
@@ -86,7 +86,7 @@ public class Cuarteto extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Genera un String compuesto por texto y el nombre del Cuarteto
+	 * Genera un String compuesto por texto y el nombre del Cuarteto.
 	 *
 	 * @return String amoAescucha
 	 */
@@ -96,7 +96,7 @@ public class Cuarteto extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Constructor del método toString con los atributos de un Cuarteto
+	 * Constructor del método toString con los atributos de un Cuarteto.
 	 *
 	 * @return the string
 	 */

@@ -4,15 +4,15 @@ import java.util.Comparator;
 
 /**
  * Clase CompAgrupacionAutor se utiliza para ordenar Objetos del tipo
- * Agrupación según el nombre del autor
- * 
- * @version 3-2023
+ * Agrupación según el nombre del autor.
+ *
  * @author Ricardo Fernández Guzmán
+ * @version 3-2023
  */
 public class CompAgrupacionAutor implements Comparator<Agrupacion> {
 
 	/**
-	 * Compara dos objetos del tipo Agrupación según el nombre del autor
+	 * Compara dos objetos del tipo Agrupación según el nombre del autor.
 	 *
 	 * @param o1 <i>Primer Objeto Agrupación</i>
 	 * @param o2 <i>Segundo Objeto Agrupación</i>

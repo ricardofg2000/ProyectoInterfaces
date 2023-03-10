@@ -1,27 +1,26 @@
 package model;
 
-
 /**
  * Clase Romancero, se utiliza para crear y leer las Agrupaciones de este tipo, 
- * implementa la interfaz Callejera, hereda de la clase Agrupación
- * 
- * @version 3-2023
+ * implementa la interfaz Callejera, hereda de la clase Agrupación.
+ *
  * @author Ricardo Fernández Guzmán
+ * @version 3-2023
  */
 public class Romancero extends Agrupacion implements Callejera {
 	
-	/** Atributo temática del cartelón */
+	/**  Atributo temática del cartelón. */
 	private String tematicaC;
 
 	/**
-	 * Instancia un nuevo Romancero vacio
+	 * Instancia un nuevo Romancero vacio.
 	 */
 	public Romancero() {
 		super();
 	}
 
 	/**
-	 * Instancia un nuevo Romancero 
+	 * Instancia un nuevo Romancero .
 	 *
 	 * @param nombre <i>Nombre del Romancero</i>
 	 * @param autor <i>Nombre del autor</i>
@@ -36,7 +35,7 @@ public class Romancero extends Agrupacion implements Callejera {
 	}
 
 	/**
-	 * Obtiene el valor de la temática del cartelón
+	 * Obtiene el valor de la temática del cartelón.
 	 *
 	 * @return Temática del cartelón
 	 */
@@ -45,7 +44,7 @@ public class Romancero extends Agrupacion implements Callejera {
 	}
 
 	/**
-	 * Cambia el valor de la temática del cartelón
+	 * Cambia el valor de la temática del cartelón.
 	 *
 	 * @param tematicaC <i>Nueva temática del cartelón</i>
 	 */
@@ -55,7 +54,7 @@ public class Romancero extends Agrupacion implements Callejera {
 
 	/**
 	 * Genera un String compuesto por el texto para cantarPresentación 
-	 * seguido del nombre del Romancero
+	 * seguido del nombre del Romancero.
 	 *
 	 * @return String cantarPresentación
 	 */
@@ -65,8 +64,8 @@ public class Romancero extends Agrupacion implements Callejera {
 	}
 
 	/**
-	 * Genera un String compuesto por el nombre del Romancero y el tipo de difraz
-	 * 
+	 * Genera un String compuesto por el nombre del Romancero y el tipo de difraz.
+	 *
 	 * @return String tipoDisfraz
 	 */
 	@Override
@@ -75,7 +74,7 @@ public class Romancero extends Agrupacion implements Callejera {
 	}
 
 	/**
-	 * Genera un String compuesto por texto y el nombre del Romancero
+	 * Genera un String compuesto por texto y el nombre del Romancero.
 	 *
 	 * @return String amoAescucha
 	 */
@@ -85,7 +84,7 @@ public class Romancero extends Agrupacion implements Callejera {
 	}
 
 	/**
-	 * Constructor del método toString con los atributos de un Romancero
+	 * Constructor del método toString con los atributos de un Romancero.
 	 *
 	 * @return Cadena de texto con los atributos del Romancero
 	 */

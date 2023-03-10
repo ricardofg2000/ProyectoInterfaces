@@ -4,15 +4,15 @@ import java.util.Comparator;
 
 /**
  * Clase CompIntegranteNombre se utiliza para comparar Objetos del tipo
- * Integrante según el nombre del Integrante
- * 
- * @version 3-2023
+ * Integrante según el nombre del Integrante.
+ *
  * @author Ricardo Fernández Guzmán
+ * @version 3-2023
  */
 public class CompIntegranteNombre implements Comparator<Integrante> {
 
 	/**
-	 * Compara dos objetos del tipo Integrante según el nombre
+	 * Compara dos objetos del tipo Integrante según el nombre.
 	 *
 	 * @param o1 <i>Primer Objeto Integrante</i>
 	 * @param o2 <i>Segundo Objeto Integrante</i>

@@ -4,15 +4,15 @@ import java.util.Comparator;
 
 /**
  * Clase CompNombreAgrupacion se utiliza para ordenar Objetos del tipo
- * Agrupación según el nombre de la agrupación
- * 
- * @version 3-2023
+ * Agrupación según el nombre de la agrupación.
+ *
  * @author Ricardo Fernández Guzmán
+ * @version 3-2023
  */
 public class CompNombreAgrupacion implements Comparator<Agrupacion> {
 
 	/**
-	 * Compara dos objetos del tipo Agrupación según el nombre
+	 * Compara dos objetos del tipo Agrupación según el nombre.
 	 *
 	 * @param o1 <i>Primer Objeto Agrupación</i>
 	 * @param o2 <i>Segundo Objeto Agrupación</i>

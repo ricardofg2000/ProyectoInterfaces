@@ -10,12 +10,11 @@ import model.Cuarteto;
 import model.Integrante;
 import model.Romancero;
 
-
 /**
- * Clase Principal del programa, lleva a cabo el frontend del programa
- * 
- * @version 3-2023
+ * Clase Principal del programa, lleva a cabo el frontend del programa.
+ *
  * @author Ricardo Fernández Guzmán
+ * @version 3-2023
  */
 public class Principal {
 	

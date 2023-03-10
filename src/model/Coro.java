@@ -1,23 +1,22 @@
 package model;
 
-// TODO: Auto-generated Javadoc
 /**
  * Clase Coro, se utiliza para crear y leer las Agrupaciones de este tipo, 
- * implementa la interfaz Callejera, hereda de la clase AgrupaciónOficial
- * 
- * @version 3-2023
+ * implementa la interfaz Callejera, hereda de la clase AgrupaciónOficial.
+ *
  * @author Ricardo Fernández Guzmán
+ * @version 3-2023
  */
 public class Coro extends AgrupacionOficial {
 	
-	/** Atributo número de bandurrias del Coro */
+	/**  Atributo número de bandurrias del Coro. */
 	private Integer bandurrias;
 	
-	/** Atributo número de guitarras del Coro */
+	/**  Atributo número de guitarras del Coro. */
 	private Integer guitarras;
 
 	/**
-	 * Instancia un nuevo Coro vacio
+	 * Instancia un nuevo Coro vacio.
 	 */
 	public Coro() {
 		super();
@@ -43,7 +42,7 @@ public class Coro extends AgrupacionOficial {
 	}
 
 	/**
-	 * Obtiene el valor del número de bandurrias
+	 * Obtiene el valor del número de bandurrias.
 	 *
 	 * @return Número de bandurrias
 	 */
@@ -52,7 +51,7 @@ public class Coro extends AgrupacionOficial {
 	}
 
 	/**
-	 * Cambia el valor del número de bandurrias
+	 * Cambia el valor del número de bandurrias.
 	 *
 	 * @param bandurrias <i>Nuevo número de bandurrias</i>
 	 */
@@ -61,7 +60,7 @@ public class Coro extends AgrupacionOficial {
 	}
 
 	/**
-	 * Obtiene el valor del número de guitarras
+	 * Obtiene el valor del número de guitarras.
 	 *
 	 * @return Número de guitarras
 	 */
@@ -70,7 +69,7 @@ public class Coro extends AgrupacionOficial {
 	}
 
 	/**
-	 * Cambia el valor del número de guitarras
+	 * Cambia el valor del número de guitarras.
 	 *
 	 * @param guitarras <i>Nuevo número de guitarras</i>
 	 */
@@ -80,7 +79,7 @@ public class Coro extends AgrupacionOficial {
 
 	/**
 	 * Genera un String compuesto por el texto para cantarPresentación 
-	 * seguido del nombre del Coro
+	 * seguido del nombre del Coro.
 	 *
 	 * @return String cantarPresentación
 	 */
@@ -90,7 +89,7 @@ public class Coro extends AgrupacionOficial {
 	}
 
 	/**
-	 * Genera un String compuesto por el nombre del Coro y el tipo de difraz
+	 * Genera un String compuesto por el nombre del Coro y el tipo de difraz.
 	 *
 	 * @return String tipoDisfraz
 	 */
@@ -100,8 +99,7 @@ public class Coro extends AgrupacionOficial {
 	}
 
 	/**
-	 * Genera un String para indicar que un Coro va camino de la falla
-
+	 * Genera un String para indicar que un Coro va camino de la falla.
 	 *
 	 * @return String caminitoDelFalla
 	 */
@@ -111,8 +109,7 @@ public class Coro extends AgrupacionOficial {
 	}
 
 	/**
-	 * Constructor del método toString con los atributos de un Coro
-
+	 * Constructor del método toString con los atributos de un Coro.
 	 *
 	 * @return the string
 	 */

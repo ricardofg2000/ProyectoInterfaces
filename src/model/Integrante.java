@@ -1,37 +1,37 @@
 package model;
 
 /**
- * Clase Integrante, se utiliza para crear y leer integrantes de las Agrupaciones
- * 
- * @version 3-2023
+ * Clase Integrante, se utiliza para crear y leer integrantes de las Agrupaciones.
+ *
  * @author Ricardo Fernández Guzmán
+ * @version 3-2023
  */
 public class Integrante {
 	
-	/** Atributo numero del participante del integrante */
+	/**  Atributo numero del participante del integrante. */
 	private Integer numeroParticipante;
 	
-	/** Atributo nombre del integrante */
+	/**  Atributo nombre del integrante. */
 	private String nombre;
 	
-	/** Atributo edad del integrante */
+	/**  Atributo edad del integrante. */
 	private Integer edad;
 	
-	/** Atributo localidad del integrante */
+	/**  Atributo localidad del integrante. */
 	private String localidad;
 	
-	/** Atributo auxiliar contador de Objetos de la clase Integrante creados */
+	/**  Atributo auxiliar contador de Objetos de la clase Integrante creados. */
 	private static Integer cont = 1;
 
 	/**
-	 * Instancia un nuevo Integrante vacio
+	 * Instancia un nuevo Integrante vacio.
 	 */
 	public Integrante() {
 		setNumeroParticipante(cont++);
 	}
 
 	/**
-	 * Instancia un nuevo Integrante con todos sus atributos
+	 * Instancia un nuevo Integrante con todos sus atributos.
 	 *
 	 * @param nombre <i>Nombre del Integrante</i>
 	 * @param edad <i>Edad del Integrante</i>
@@ -45,7 +45,7 @@ public class Integrante {
 	}
 
 	/**
-	 * Obtiene el valor del número del participante
+	 * Obtiene el valor del número del participante.
 	 *
 	 * @return Número del participante
 	 */
@@ -54,7 +54,7 @@ public class Integrante {
 	}
 
 	/**
-	 * Cambia el valor del número del participante
+	 * Cambia el valor del número del participante.
 	 *
 	 * @param numeroParticipante <i>Nuevo número del participante</i>
 	 */
@@ -63,7 +63,7 @@ public class Integrante {
 	}
 
 	/**
-	 * Obtiene el valor del nombre del integrante
+	 * Obtiene el valor del nombre del integrante.
 	 *
 	 * @return nombre del integrante
 	 */
@@ -72,7 +72,7 @@ public class Integrante {
 	}
 
 	/**
-	 * Cambia el valor del nombre del integrante
+	 * Cambia el valor del nombre del integrante.
 	 *
 	 * @param nombre <i>Nuevo nombre del integrante</i>
 	 */
@@ -81,7 +81,7 @@ public class Integrante {
 	}
 
 	/**
-	 * Obtiene el valor de la edad del integrante
+	 * Obtiene el valor de la edad del integrante.
 	 *
 	 * @return edad del integrante
 	 */
@@ -90,7 +90,7 @@ public class Integrante {
 	}
 
 	/**
-	 * Cambia el valor de la edad del integrante
+	 * Cambia el valor de la edad del integrante.
 	 *
 	 * @param edad <i>Nueva edad del integrante</i>
 	 */
@@ -102,7 +102,7 @@ public class Integrante {
 	}
 
 	/**
-	 * Obtiene el valor de la localidad del integrante
+	 * Obtiene el valor de la localidad del integrante.
 	 *
 	 * @return localidad del integrante
 	 */
@@ -120,7 +120,7 @@ public class Integrante {
 	}
 
 	/**
-	 * Constructor del método toString con los atributos de un Integrante
+	 * Constructor del método toString con los atributos de un Integrante.
 	 *
 	 * @return the string
 	 */

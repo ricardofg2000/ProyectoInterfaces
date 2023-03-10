@@ -2,10 +2,10 @@ package model;
 
 /**
  * Clase Comparsa, se utiliza para crear y leer las Agrupaciones de este tipo
- * , hereda de la clase AgrupaciónOficial
- * 
- * @version 3-2023
+ * , hereda de la clase AgrupaciónOficial.
+ *
  * @author Ricardo Fernández Guzmán
+ * @version 3-2023
  */
 public class Comparsa extends AgrupacionOficial {
 	
@@ -20,7 +20,7 @@ public class Comparsa extends AgrupacionOficial {
 	}
 
 	/**
-	 * Instancia una nueva Comparsa
+	 * Instancia una nueva Comparsa.
 	 *
 	 * @param nombre <i>Nombre del Cuarteto</i>
 	 * @param autor <i>Nombre del autor</i>
@@ -37,7 +37,7 @@ public class Comparsa extends AgrupacionOficial {
 	}
 
 	/**
-	 * Obtiene el valor del nombre de la empresa de atrezzo
+	 * Obtiene el valor del nombre de la empresa de atrezzo.
 	 *
 	 * @return Nombre de la empresa de atrezzo
 	 */
@@ -46,7 +46,7 @@ public class Comparsa extends AgrupacionOficial {
 	}
 
 	/**
-	 * Cambia el valor del nombre de la empresa de atrezzo
+	 * Cambia el valor del nombre de la empresa de atrezzo.
 	 *
 	 * @param empresaA <i>Nuevo nombre de la empresa de atrezzo</i>
 	 */
@@ -56,7 +56,7 @@ public class Comparsa extends AgrupacionOficial {
 
 	/**
 	 * Genera un String compuesto por el texto para cantarPresentación 
-	 * seguido del nombre de la Comparsa
+	 * seguido del nombre de la Comparsa.
 	 *
 	 * @return String cantarPresentación
 	 */
@@ -66,8 +66,8 @@ public class Comparsa extends AgrupacionOficial {
 	}
 
 	/**
-	 * Genera un String compuesto por el nombre de la Comparsa y el tipo de difraz
-	 * 
+	 * Genera un String compuesto por el nombre de la Comparsa y el tipo de difraz.
+	 *
 	 * @return String tipoDisfraz
 	 */
 	@Override
@@ -76,8 +76,8 @@ public class Comparsa extends AgrupacionOficial {
 	}
 
 	/**
-	 * Genera un String para indicar que una Comparsa va camino de la falla
-	 * 
+	 * Genera un String para indicar que una Comparsa va camino de la falla.
+	 *
 	 * @return String caminitoDelFalla
 	 */
 	@Override
@@ -86,7 +86,7 @@ public class Comparsa extends AgrupacionOficial {
 	}
 
 	/**
-	 * Constructor del método toString con los atributos de una Comparsa
+	 * Constructor del método toString con los atributos de una Comparsa.
 	 *
 	 * @return the string
 	 */

@@ -2,25 +2,25 @@ package model;
 
 /**
  * Clase Chirigota, se utiliza para crear y leer las Agrupaciones de este tipo, 
- * implementa la interfaz Callejera, hereda de la clase AgrupaciónOficial
- * 
- * @version 3-2023
+ * implementa la interfaz Callejera, hereda de la clase AgrupaciónOficial.
+ *
  * @author Ricardo Fernández Guzmán
+ * @version 3-2023
  */
 public class Chirigota extends AgrupacionOficial implements Callejera {
 	
-	/** Atributo número de cuplés de la Chirigota */
+	/**  Atributo número de cuplés de la Chirigota. */
 	private Integer cuples;
 
 	/**
-	 * Instancia una nueva Chirigota vacio
+	 * Instancia una nueva Chirigota vacio.
 	 */
 	public Chirigota() {
 		super();
 	}
 
 	/**
-	 * Instancia un nuevo Cuarteto
+	 * Instancia un nuevo Cuarteto.
 	 *
 	 * @param nombre <i>Nombre del Cuarteto</i>
 	 * @param autor <i>Nombre del autor</i>
@@ -37,7 +37,7 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Obtiene el valor del número de cuplés
+	 * Obtiene el valor del número de cuplés.
 	 *
 	 * @return Número de miembros
 	 */
@@ -46,7 +46,7 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Cambia el valor del número de cuplés
+	 * Cambia el valor del número de cuplés.
 	 *
 	 * @param cuples <i>Nuevo número de cuplés</i>
 	 */
@@ -56,7 +56,7 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 
 	/**
 	 * Genera un String compuesto por el texto para cantarPresentación 
-	 * seguido del nombre de la Chirigota
+	 * seguido del nombre de la Chirigota.
 	 *
 	 * @return String cantarPresentación
 	 */
@@ -66,8 +66,8 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Genera un String compuesto por el nombre de la Chirigota y el tipo de difraz
-	 * 
+	 * Genera un String compuesto por el nombre de la Chirigota y el tipo de difraz.
+	 *
 	 * @return String tipoDisfraz
 	 */
 	@Override
@@ -76,8 +76,8 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Genera un String para indicar que una Chirigota va camino de la falla
-	 * 
+	 * Genera un String para indicar que una Chirigota va camino de la falla.
+	 *
 	 * @return String caminitoDelFalla
 	 */
 	@Override
@@ -86,7 +86,7 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Genera un String compuesto por texto y el nombre de la Chirigota
+	 * Genera un String compuesto por texto y el nombre de la Chirigota.
 	 *
 	 * @return String amoAescucha
 	 */
@@ -96,7 +96,7 @@ public class Chirigota extends AgrupacionOficial implements Callejera {
 	}
 
 	/**
-	 * Constructor del método toString con los atributos de una Chirigota
+	 * Constructor del método toString con los atributos de una Chirigota.
 	 *
 	 * @return the string
 	 */
