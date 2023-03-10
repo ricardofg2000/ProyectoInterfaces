@@ -149,7 +149,7 @@ public abstract class AgrupacionOficial extends Agrupacion {
 	}
 
 	/**
-	 * Borra un integrante del array integrantes
+	 * Borra un Integrante del array integrantes
 	 *
 	 * @param i <i>Posición del array</i>
 	 * @return true, si se ha podido añadir con exito
