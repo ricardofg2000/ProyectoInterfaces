@@ -122,8 +122,10 @@ public abstract class AgrupacionOficial extends Agrupacion {
 	 * Añade un Integrante al array integrantes
 	 *
 	 * @param i <i>Posición del array</i>
-	 * @return true, si se ha podido añadir con exito
-	 * @return false, si no se ha podido añadir con exito
+	 * @return <ul>
+	 * <li> true: si se ha podido añadir el Integrante con exito</li>
+	 * <li> false: si no se ha podido añadir el Integrante con exito </li>
+	 * </ul>
 	 */
 	public boolean insertarIntegrante(Integrante i) {
 		boolean isOK = false;
@@ -152,8 +154,10 @@ public abstract class AgrupacionOficial extends Agrupacion {
 	 * Borra un Integrante del array integrantes
 	 *
 	 * @param i <i>Posición del array</i>
-	 * @return true, si se ha podido añadir con exito
-	 * @return false, si no se ha podido añadir con exito
+	 * @return <ul>
+	 * <li> true: si se ha podido borrar el Integrante con exito</li>
+	 * <li> false: si no se ha podido borrar el Integrante con exito </li>
+	 * </ul>
 	 */
 	boolean eliminarIntegrante(Integrante i) {
 		boolean isOK = false;

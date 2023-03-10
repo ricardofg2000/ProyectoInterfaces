@@ -115,8 +115,10 @@ public class COAC {
 	 * Añade un elemento Agrupacion al array agrupaciones
 	 *
 	 * @param i <i>Posición del array</i>
-	 * @return true, si se ha podido añadir con exito
-	 * @return false, si no se ha podido añadir con exito
+	 * @return <ul>
+	 * <li> true: si se ha podido añadir la Agrupacion con exito</li>
+	 * <li> false: si no se ha podido añadir la Agrupacion con exito </li>
+	 * </ul>
 	 */
 	public boolean inscribir_agrupacion(Agrupacion i) {
 		boolean isOK = false;
@@ -145,8 +147,10 @@ public class COAC {
 	 * Añade un Integrante al array integrantes
 	 *
 	 * @param i <i>Posición del array</i>
-	 * @return true, si se ha podido añadir con exito
-	 * @return false, si no se ha podido añadir con exito
+	 * @return <ul>
+	 * <li> true: si se ha podido añadir Integrante con exito</li>
+	 * <li> false: si no se ha podido añadir el Integrante con exito </li>
+	 * </ul>
 	 */
 	public boolean inscribir_integrante(Integrante i) {
 		boolean isOK = false;
@@ -175,8 +179,10 @@ public class COAC {
 	 * Borra una Agrupacion del array agrupaciones
 	 *
 	 * @param i <i>Posición del array</i>
-	 * @return true, si se ha podido añadir con exito
-	 * @return false, si no se ha podido añadir con exito
+	 * @return <ul>
+	 * <li> true: si se ha podido boorar la Agrupacion con exito</li>
+	 * <li> false: si no se ha podido borrar la Agrupacion con exito </li>
+	 * </ul>
 	 */
 	public boolean eliminar_agrupacion(Agrupacion i) {
 		boolean isOK = false;
@@ -194,8 +200,10 @@ public class COAC {
 	 * Borra un Integrante del array integrantes
 	 *
 	 * @param i <i>Posición del array</i>
-	 * @return true, si se ha podido añadir con exito
-	 * @return false, si no se ha podido añadir con exito
+	 * @return <ul>
+	 * <li> true: si se ha podido borrar el Integrante con exito</li>
+	 * <li> false: si no se ha podido borrar el Integrante con exito </li>
+	 * </ul>
 	 */
 	public boolean eliminar_integrante(Integrante i) {
 		boolean isOK = false;
