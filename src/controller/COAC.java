@@ -260,7 +260,7 @@ public class COAC {
 	/**
 	 * Modifica el valor de los puntos de una AgrupacionOficial
 	 *
-	 * @param <i>Posición del array</i>
+	 * @param i <i>Posición del array</i>
 	 * @param puntos <i>Nueva cantidad de puntos</i>
 	 */
 	public void asignarPuntos(AgrupacionOficial i, Integer puntos) {
