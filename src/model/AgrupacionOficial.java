@@ -1,7 +1,7 @@
 package model;
 
 /**
- * Clase Cuarteto, se utiliza para leer y trabajar con los objetos del tipo
+ * Clase AgrupaciónOficial, se utiliza para leer y trabajar con los objetos del tipo
  * AgrupacionOficial hereda de la clase Agrupación
  */
 public abstract class AgrupacionOficial extends Agrupacion {
